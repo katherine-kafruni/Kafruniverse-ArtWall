@@ -1,6 +1,250 @@
-<style>
-    body{
-    
-        background-color: #eef5b7;
-    }
-</style>
+html,body{height:100%;}
+
+body{
+
+    background-image: url(../images/map.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-color: #eef5b7;
+    background-position: center;
+   
+}
+
+.grid-container {
+background-size: 100vw;
+display: grid;
+grid-gap: none;
+grid-template-columns:33% 33% 33% ;
+grid-template-rows: 14% 14% 14% 14% 14% 14% 14%  ;
+background-position: center;
+
+}
+
+/* #section1 {
+grid-column: 2 ;
+grid-row: 2;
+background-color: brown;
+color: white;
+shape-image-threshold: src="images/twitter_logo";
+width: 100px;
+height: 100px;
+z-index: 20; */
+
+    /* } */
+
+/* #img_ID{
+    /* display: none; */
+    /* grid-column: 1\-1 ;
+grid-row: 1\-1; */
+
+     /* width: 100vw ;
+     height: 100vh ;  
+} */ 
+
+#ig{
+    width: 100%
+}
+
+#igDiv{
+grid-column: 1;
+grid-row: 2;    
+}
+
+
+#twitter {
+   width: 100% ;
+}
+
+#twitterDiv {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: chartreuse;
+    /* width: 33%; 
+    height: 14%; */
+ }
+
+#patreon {
+
+    width:100%
+}
+
+#patreonDiv{
+    grid-column: 3;
+    grid-row: 6;
+
+}
+
+#etsy{
+    width:100%
+}
+
+#etsyDiv{
+
+    grid-column: 1;
+    grid-row: 6;
+
+}
+
+#contactme {
+    width: 100% ;
+ }
+ 
+ #contactmeDiv {
+     grid-column: 2;
+     grid-row: 7;
+ }
+
+ #aboutme {
+    width: 100% ;
+ }
+ 
+ #aboutmeDiv {
+     grid-column: 1;
+     grid-row: 4;
+ }
+
+
+ #aboutme2 {
+    width: 100% ;
+ }
+ 
+ #aboutme2Div {
+     grid-column: 2;
+     grid-row: 4;
+ }
+
+ #downleft {
+    width: 100% ;
+ }
+ 
+ #downleftDiv {
+     grid-column: 1;
+     grid-row: 7;
+ }
+
+ #downright {
+    width: 100% ;
+ }
+ 
+ #downrightDiv {
+     grid-column: 3;
+     grid-row: 7;
+
+ }
+
+ #fanartdown {
+    width: 100% ;
+ }
+ 
+ #fanartdownDiv {
+     grid-column: 2;
+     grid-row: 6;
+ }
+
+ #fanartup {
+    width: 100% ;
+ }
+ 
+ #fanartupDiv {
+     grid-column: 2;
+     grid-row: 2;
+ }
+
+ #inspiration {
+    width: 100% ;
+ }
+ 
+ #inspirationDiv {
+     grid-column: 2;
+     grid-row: 5;
+ }
+
+ #ontopofetsy {
+    width: 100% ;
+ }
+ 
+ #ontopofetsyDiv {
+     grid-column: 1;
+     grid-row: 5;
+ }
+
+ #ontopofpatreon {
+    width: 100% ;
+ }
+ 
+ #ontopofpatreonDiv {
+     grid-column: 3;
+     grid-row: 5;
+ }
+
+ #portfoliodown {
+    width: 100% ;
+ }
+ 
+ #portfoliodownDiv {
+     grid-column: 1;
+     grid-row: 4;
+ }
+
+ #portfolioup {
+    width: 100% ;
+ }
+ 
+ #portfolioupDiv {
+     grid-column: 1;
+     grid-row: 3;
+ }
+
+ #rightcenter {
+    width: 100% ;
+ }
+ 
+ #rightcenterDiv {
+     grid-column: 3;
+     grid-row: 4;
+ }
+
+ #title {
+    width: 100% ;
+ }
+ 
+ #titleDiv {
+     grid-column: 2;
+     grid-row: 1;
+ }
+
+ #topleft {
+    width: 100% ;
+ }
+ 
+ #topleftDiv {
+     grid-column: 1;
+     grid-row: 1;
+ }
+
+ #topright {
+    width: 100% ;
+ }
+ 
+ #toprightDiv {
+     grid-column: 3;
+     grid-row: 1;
+ }
+
+ #underig {
+    width: 100% ;
+ }
+ 
+ #underigDiv {
+     grid-column: 1;
+     grid-row: 3;
+ }
+
+ #undertwitter {
+    width: 100% ;
+ }
+ 
+ #undertwitterDiv {
+     grid-column: 3;
+     grid-row: 3;
+ }
