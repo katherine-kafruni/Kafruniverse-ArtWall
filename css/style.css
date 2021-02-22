@@ -2,7 +2,7 @@ html,body{height:100%;}
 
 body{
 
-    background-image: url(../images/map.jpg);
+    /* background-image: url(../images/map.jpg); */
     background-size: 100vw;
     background-repeat: no-repeat;
     background-color: #eef5b7;
@@ -17,6 +17,7 @@ grid-gap: none;
 grid-template-columns:33% 33% 33% ;
 grid-template-rows: 14% 14% 14% 14% 14% 14% 14%  ;
 background-position: center;
+height: 100vh;
 
 }
 
@@ -92,6 +93,7 @@ grid-row: 2;
  #contactmeDiv {
      grid-column: 2;
      grid-row: 7;
+     background-color: yellow;
  }
 
  #aboutme {
@@ -99,8 +101,9 @@ grid-row: 2;
  }
  
  #aboutmeDiv {
-     grid-column: 1;
-     grid-row: 4;
+     grid-column: 2;
+     grid-row: 3;
+     background-color: yellow;
  }
 
 
@@ -177,23 +180,20 @@ grid-row: 2;
      grid-row: 5;
  }
 
- #portfoliodown {
+ /* #portfoliodown {
     width: 100% ;
  }
- 
- #portfoliodownDiv {
-     grid-column: 1;
-     grid-row: 4;
- }
+  */
 
- #portfolioup {
+
+ /* #portfolioup {
     width: 100% ;
  }
  
  #portfolioupDiv {
      grid-column: 1;
      grid-row: 3;
- }
+ } */
 
  #rightcenter {
     width: 100% ;
@@ -247,4 +247,15 @@ grid-row: 2;
  #undertwitterDiv {
      grid-column: 3;
      grid-row: 3;
+ }
+
+ #portfolio{
+     width: 100%;
+
+ }
+ 
+ #portfolioDiv{
+grid-column: 2;
+grid-row: 3
+
  }
