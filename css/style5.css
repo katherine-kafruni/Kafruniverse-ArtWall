@@ -1,0 +1,75 @@
+h1{
+    font-family: fantasy;
+    font-size: 60px;
+    color: rgb(104, 46, 71);
+}
+h2{
+    color:rgb(77, 23, 49);
+    font-family: constancia;
+    font-size: 36px;
+}
+
+p{
+    font-family:sylfaen ;
+    font-size: 18px;
+    color: black;
+}
+
+ .grid-container {
+    position: center;
+    padding: 20%;
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+    grid-template-rows: 10% 15% 55% 20%;
+    padding: 10px;
+    width: 100vw;
+    height:100vh;
+
+
+ }
+
+ .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+  }  
+
+  #title {
+    grid-column: 2;
+    grid-row: 1;    
+    }
+
+    #Steven {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+
+    #carousel{
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    #carousel2{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    
+#otherButtons{
+   
+    grid-column: 1;
+    grid-row: 3;
+    padding-top: 30vh;
+}
+#otherButtons2{
+   vertical-align: end;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#artist{
+  
+    grid-column: 3;
+    grid-row: 4;
+}

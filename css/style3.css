@@ -1,0 +1,98 @@
+/* 
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 30px;
+ 
+  padding: 30px;
+}
+
+.grid-container > div {
+  
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+
+ */
+
+h1{
+    font-family: fantasy;
+    font-size: 60px;
+    color: aliceblue;
+}
+h2{
+    color:rgb(77, 23, 49);
+    font-family: constancia;
+    font-size: 36px;
+}
+
+p{
+    font-family:sylfaen ;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+ .grid-container {
+    position: center;
+    padding: 20%;
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+    grid-template-rows: 10% 10% 60% 10% 10%;
+    padding: 10px;
+    width: auto;
+    height:auto;
+
+
+
+
+  }
+  
+  .grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+  }  
+
+  #title {
+    grid-column: 2;
+    grid-row: 1;    
+    }
+
+#avatar {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#carousel{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#otherButtons{
+   
+    grid-column: 1;
+    grid-row: 3;
+    padding-top:30vh;
+}
+#otherButtons2{
+   vertical-align: end;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#artist{
+    text-align: end;
+    grid-column: 3;
+    grid-row: 5;
+}
